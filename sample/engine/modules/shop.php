@@ -14,7 +14,7 @@ if(!file_exists(ENGINE_DIR.'/inc/makethumb.php'))
 		else
 		{
 			require_once ENGINE_DIR.'/inc/makethumb.php';
-			
+
 		}
 
 $MyModule = new Modulus();
@@ -194,7 +194,7 @@ $MyModule->LoadDataClass("comments", PREFIX . "_shop_comments", $DbArr, $TplDef,
 
 // counries
 $DbArr = array(
- "id" => "id", 
+ "id" => "id",
  "title" => "varchar",
  "type" => "varchar",
  "ftitle" => "varchar",
@@ -212,7 +212,7 @@ $MyModule->LoadDataClass("multifields", PREFIX . "_shop_fields", $DbArr, $TplDef
 
 // counries
 $DbArr = array(
- "id" => "id", 
+ "id" => "id",
  "title" => "varchar",
  "parent" => "Class:categories:ItemSelect",
  "description" => "text"
@@ -249,19 +249,19 @@ $MyModule->LoadDataClass("categories", PREFIX . "_shop_categories", $DbArr, $Tpl
 
 // counries
 $DbArr = array(
- "id" => "id", 
- "cart_id" => "Class:carts:ItemSelect", 
- "gateway" => "varchar", 
- "status" => "varchar", 
- "fio" => "varchar", 
- "company" => "varchar", 
- "email" => "varchar", 
- "telephone" => "varchar", 
- "address" => "varchar", 
- "addinfo" => "text", 
- "ip" => "varchar", 
- "date" => "varchar", 
- "items" => "text", 
+ "id" => "id",
+ "cart_id" => "Class:carts:ItemSelect",
+ "gateway" => "varchar",
+ "status" => "varchar",
+ "fio" => "varchar",
+ "company" => "varchar",
+ "email" => "varchar",
+ "telephone" => "varchar",
+ "address" => "varchar",
+ "addinfo" => "text",
+ "ip" => "varchar",
+ "date" => "varchar",
+ "items" => "text",
  "totalsum" => "varchar",
  "ordernum"=>"varchar"
 );
@@ -349,13 +349,13 @@ if(isset($member_id['user_id'])&&$member_id['user_id']!="")
 {
 	$TagList['fullname'] = "Raw:".$member_id['fullname'];
 	$TagList['email'] = "Raw:".$member_id['email'];
-	
+
 }
 else
 {
 	$TagList['fullname'] = "";
 	$TagList['email'] = "";
-}				
+}
 
 $UserRights = "all";
 
@@ -484,7 +484,7 @@ $MyModule->AddSelectList("groups",$GroupArr);
 $TimeShowList = array(
 "week" => "Неделя",
 "2week" => "2 недели",
-"month" => "Месяц" 
+"month" => "Месяц"
 );
 $MyModule->AddSelectList("GetTimeShow",$TimeShowList);
 
@@ -497,21 +497,21 @@ $MyModule->AddSelectList("YesNo",$YesNoList);
 
 $MarksList = array(
 "0" => "Все",
-"1" => "Caro", 
-"2" => "Oporo", 
+"1" => "Caro",
+"2" => "Oporo",
 "3" => "Topclass",
 "4" => "Foundain",
 "5" => "Eago"
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
-); 
+);
 $MyModule->AddSelectList("Marks", $MarksList, $ParamsFR);
 
 $MarksList = array(
 "0" => "Все",
-"1" => "нет", 
-"2" => "2", 
+"1" => "нет",
+"2" => "2",
 "3" => "4",
 "4" => "6",
 "5" => "8",
@@ -524,29 +524,29 @@ $MarksList = array(
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
-); 
+);
 $MyModule->AddSelectList("HMFors", $MarksList, $ParamsFR);
 
 $MarksList = array(
 "0" => "Все",
-"1" => "Низкий", 
-"2" => "Высокий", 
+"1" => "Низкий",
+"2" => "Высокий",
 "3" => "Совмещенные с ванной",
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
-); 
+);
 $MyModule->AddSelectList("Poddons", $MarksList, $ParamsFR);
 
 $MarksList = array(
 "0" => "Все",
-"1" => "Нет", 
-"2" => "Сенсорная", 
+"1" => "Нет",
+"2" => "Сенсорная",
 "3" => "Кнопочная",
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
-); 
+);
 $MyModule->AddSelectList("Panels", $MarksList, $ParamsFR);
 
 
@@ -568,7 +568,7 @@ $CurrArr = array(
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
-); 
+);
 $MyModule->AddSelectList("Currencies", $CurrArr, $ParamsFR);
 
 $CurrArr = array(
@@ -577,7 +577,7 @@ $CurrArr = array(
 "canceld" => "Отменен",
 );
 
-$ParamsFR = array(); 
+$ParamsFR = array();
 
 $MyModule->AddSelectList("Statuses", $CurrArr, $ParamsFR);
 
@@ -616,7 +616,7 @@ function Dispatchershop() //gets parameters and invokes necessary function
 			$op = $_REQUEST['op'];
 	}
 	switch ($op) {
-	
+
 	case "shop":
 			$MyModule->LoadPage("ShowAll");
 	        break;
@@ -698,7 +698,7 @@ function Dispatchershop() //gets parameters and invokes necessary function
 	        break;
 	    }
 	}
-	
+
 }
 if(strstr($_SERVER['REQUEST_URI'], "do=shop")||strstr($_SERVER['REQUEST_URI'], "/shop/")||strstr($_SERVER['REQUEST_URI']."::x", "/shop::x"))
 {
@@ -712,12 +712,12 @@ class shopPlugin
 {
 	// empty constructor function
 	var $VarMod = null;
-	function shopPlugin($modobj) {	
+	function shopPlugin($modobj) {
 		$this->VarMod = $modobj;
 	}
-	
-	
-	
+
+
+
 	function GetAddLink()
 	{
 		global $is_logged;
@@ -738,7 +738,7 @@ class shopPlugin
 			}
 		}
 	}
-	
+
 	function LoadLatest()
 	{
 		global $tpl;
@@ -779,9 +779,9 @@ class shopPlugin
 	}
 	function GenerateArt()
 	{
-		
+
 	}
-		 function translitIt($str) 
+		 function translitIt($str)
 {
     $tr = array(
         "А"=>"a","Б"=>"b","В"=>"v","Г"=>"g",
@@ -796,7 +796,7 @@ class shopPlugin
         "м"=>"m","н"=>"n","о"=>"o","п"=>"p","р"=>"r",
         "с"=>"s","т"=>"t","у"=>"u","ф"=>"f","х"=>"h",
         "ц"=>"ts","ч"=>"ch","ш"=>"sh","щ"=>"sch","ъ"=>"y",
-        "ы"=>"yi","ь"=>"","э"=>"e","ю"=>"yu","я"=>"ya", 
+        "ы"=>"yi","ь"=>"","э"=>"e","ю"=>"yu","я"=>"ya",
         " "=> "_", "."=> ""
     );
     return strtr($str,$tr);
@@ -825,10 +825,10 @@ class shopPlugin
 		$Params['text'] = str_replace("{/blink}", "</a>", $Params['text']);
 		$Params['text'] = str_replace("{catlink}", $CatLink, $Params['text']);
 		$Params['text'] = str_replace("{/catlink}", "</a>", $Params['text']);
-		
+
 		$Params['text'] = str_replace("{fcatlink}", $FCatLink, $Params['text']);
 		$Params['text'] = str_replace("{/fcatlink}", "</a>", $Params['text']);
-		
+
 		return $Params['text'];
 	}
 	function ShowFull($ItemDataArr)
@@ -862,7 +862,7 @@ class shopPlugin
 					$RpRod = array();
 					foreach($Products as $item)
 					{
-						$RpRod[$item['id']] = $item; 
+						$RpRod[$item['id']] = $item;
 					}
 					$CartContents = $this->wtl_convert("UTF-8", "cp1251", json_decode($ItemDataArr['contents'], true));
 					$ItemDataArr['items'] = "";
@@ -876,13 +876,13 @@ class shopPlugin
 							$FullPrice = (float)$MyProd['price']*(int)$Qty;
 							$FullPrice = $this->VarMod->GetTrueValue($FullPrice, $this->VarMod->MyClasses['products']['db']['price']);
 							$BuyLink = $this->VarMod->GetLink("products", "itembuy", array("id"=>$MyProd['id']));
-							
+
 							$ItemDataArr['items'] .= "".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']." ".$Qty."x - ".$FullPrice." руб - "."<form style=\"display: inline;\" action=\"".$BuyLink."\" method=\"post\"><input type=\"text\" name=\"newqty\" style=\"width: 40px;\" value=\"".$Qty."\" /><input type=\"submit\" value=\"Изменить\" /></form> <a href=\"".$this->VarMod->GetLink("carts", "deleteitem", array("id"=>$ItemDataArr['id'], "did"=>$key))."\">Удалить</a>"."<br />";
 						}
 					}
 					if(count($CartContents)>0)
 					{
-						
+
 					$ItemDataArr['formlnk'] = '<a href="'.$this->VarMod->GetLink("carts", "checkout", array("id"=>$ItemDataArr['id'])).'">';
 					$ItemDataArr['clearlnk'] = '<a href="'.$this->VarMod->GetLink("carts", "clearup", array("id"=>$ItemDataArr['id'])).'">';
 					$ItemDataArr['/a'] = "</a>";
@@ -894,7 +894,7 @@ class shopPlugin
 					$ItemDataArr['clearlnk'] = '';
 					$ItemDataArr['/a'] = "";
 					}
-					
+
 				}
 				else
 				{
@@ -918,7 +918,7 @@ class shopPlugin
 		<input type="submit" class="buybut" value="В корзину" />
 		</form>
 		';
-		
+
 			$ItemDataArr['buybut'] = $FormStr;
 			$ItemDataArr['blink'] = $BuyLink;
 			$ItemDataArr['/blink'] = "</a>";
@@ -1031,12 +1031,12 @@ class shopPlugin
 	{
 		// Ge item ID and add it to cart item, if exists for user, if not create it first
 		global $member_id;
-		
+
 		if($this->VarMod->MyConfig['onlyauth']['value']=="1")
 		{
 			if(isset($member_id['user_id'])&&$member_id['user_id']!="")
 			{
-				
+
 			}
 			else
 			{
@@ -1044,7 +1044,7 @@ class shopPlugin
 				exit;
 			}
 		}
-		
+
 		$CountIT = 1;
 		if(isset($_POST['prod_qty'])&&$_POST['prod_qty']!="")
 		{
@@ -1068,7 +1068,7 @@ class shopPlugin
 				$MyCartId = $value;
 			}
 		}
-		
+
 		// we have our cart ID try to get cart data
 		$MyCart = $this->VarMod->GetRecords("carts", array("user_id"=>$MyCartId));
 		if(isset($MyCart)&&count($MyCart)>0)
@@ -1142,7 +1142,7 @@ class shopPlugin
 		{
 			$ItemDataArr = $this->VarMod->GetRecord("carts", $_GET['id']);
 			$ItemDataArr = $ItemDataArr[0];
-			
+
 			if($MyCartId==$ItemDataArr['user_id'])
 			{
 				// remove selected item
@@ -1164,7 +1164,7 @@ class shopPlugin
 				header("location: ".$this->VarMod->GetLinkTag("main"));
 			}
 		}
-		
+
 	}
 	function ClearCart($redir=true)
 	{
@@ -1190,11 +1190,11 @@ class shopPlugin
 			$ItemDataArr = $this->VarMod->GetRecord("carts", $_GET['id']);
 			$ItemDataArr = $ItemDataArr[0];
 			$ListOfProducts = $this->VarMod->GetRecords("products");
-			
+
 			if($MyCartId==$ItemDataArr['user_id'])
 			{
 				$CartContents = $this->wtl_convert("UTF-8", "cp1251", json_decode($ItemDataArr['contents'], true));
-			
+
 				$this->VarMod->EditRecord("carts", $_GET['id'], array("contents"=>""));
 				if($redir==true)
 				{
@@ -1217,10 +1217,10 @@ class shopPlugin
 		if($_POST['fio']==""||$_POST['phone']==""||$_POST['email']=="")
 		{
 			$MesData = "Поля Email, ФИО и Телефон обязательны для заполнения <br /><a href=\"\">Назад</a>";
-					
+
 			return $this->VarMod->MakeTemplate($this->VarMod->templates['message'], array("msg"=>$MesData), "content");
 		}
-		
+
 		$FIO = $_POST['fio'];
 		$CmpAny = $_POST['company'];
 		$StrEmail = $_POST['email'];
@@ -1236,17 +1236,17 @@ class shopPlugin
 		{
 			case "platron":
 			{
-				$GateWay = "Platron";	
+				$GateWay = "Platron";
 				break;
 			}
 			case "robox":
 			{
-				$GateWay = "RoboxChange";	
+				$GateWay = "RoboxChange";
 				break;
 			}
 			case "webmoney":
 			{
-				$GateWay = "WebMoney";	
+				$GateWay = "WebMoney";
 				break;
 			}
 			default:
@@ -1255,7 +1255,7 @@ class shopPlugin
 				break;
 			}
 		}
-		
+
 		// get full sum -----------------------------------------------
 		$Green = $this->VarMod->GetRecords("carts", array("id"=>$_POST['currentid']));
 		$Green = $Green[0];
@@ -1276,7 +1276,7 @@ class shopPlugin
 			$Sum = (float)$Sum+(float)$MyObiavasNew[$cont['prod']]['price']*$cont['qty'];
 			}
 		}
-		
+
 		$MessArr = array(
 		"cart_id" => $_POST['currentid'],
 		"shop_title" => $this->VarMod->MyConfig['title']['value'],
@@ -1292,14 +1292,14 @@ class shopPlugin
 		"gateway" => $GateWay,
 		"totalsum" => $Sum
 		);
-		
+
 		$OrderNum = $this->AddNewOrder($MessArr);
 		$MessArr['ordernum'] = $OrderNum;
 		$this->SendMessage($this->VarMod->MyConfig['site_mail']['value'], $StrEmail, "Новый заказ в ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailadmin");
 	    $this->SendMessage($StrEmail, $this->VarMod->MyConfig['site_mail']['value'], "Ваш заказ в ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailuser");
-	    
+
 	    $this->ClearCart(false);
-	    
+
 	    if($_POST['gateway']=="webmoney")
 	    {
 			$this->WebMoneyForm($MessArr);
@@ -1316,21 +1316,21 @@ class shopPlugin
 		{
 			// now show success page
 	    	$this->VarMod->MakeTemplate($this->VarMod->templates['ordersuccess'], $MessArr, "content");
-		}	
+		}
 	}
 	function WebMoneyForm($MessArr)
 	{
-		global $tpl;	
+		global $tpl;
 		$total_sum_to_pay 	= $MessArr['totalsum'];
 		$shop_uri 			= $this->VarMod->MyConfig['wbm_cursite']['value'];
 		$url 				= "https://merchant.webmoney.ru/lmi/payment.asp";
 		$payee_purse		= $this->VarMod->MyConfig['wbm_purse']['value'];
 		$payment_description= $MessArr['ordernum']." - ".$MessArr['email']." - ".$MessArr['fio'];
-		
+
 		$post_variables = Array(
-		"LMI_PAYMENT_AMOUNT" 	=> round( $total_sum_to_pay, 2),    
+		"LMI_PAYMENT_AMOUNT" 	=> round( $total_sum_to_pay, 2),
 		"LMI_PAYMENT_DESC" 		=> $payment_description,
-		"LMI_PAYMENT_NO" 		=> $MessArr['ordernum'],  
+		"LMI_PAYMENT_NO" 		=> $MessArr['ordernum'],
 		"LMI_PAYEE_PURSE" 		=> $payee_purse,
 		"LMI_SIM_MODE" 			=> "0",
 		"LMI_RESULT_URL" 		=> "http://".$_SERVER['SERVER_NAME']."/shop/",
@@ -1339,18 +1339,18 @@ class shopPlugin
 		"LMI_FAIL_URL" 			=> "http://".$_SERVER['SERVER_NAME']."/shop/",
 		"LMI_FAIL_METHOD" 		=> "2"
 		);
-		
+
 		$FormStr = "";
 		$FormStr .= '<h4>Активируйте WebMoney Keeper перед переходом к странице платежа.</h4>'; // Please remember to activate WebMoney Keeper prior to processing next step
 		$FormStr .= '<form action="'.$url.'" method="post">';
 		$FormStr .= '<input type="submit" value="Оплатить заказ" name="formSubmit" class="button"/>';
-			
-		foreach( $post_variables as $name => $value ) 
+
+		foreach( $post_variables as $name => $value )
 		{
 			$FormStr .= '<input type="hidden" name="'.$name.'" value="'.htmlspecialchars($value).'" />';
 		}
 		$FormStr .= '</form>';
-		
+
 		$this->VarMod->MakeTemplate($this->VarMod->templates['message'], array("msg"=>$FormStr), "content");
 	}
 	function PlatronForm($MessArr)
@@ -1375,39 +1375,39 @@ class shopPlugin
 			'pg_request_method'	=> 'GET',
 			'pg_salt'			=> rand(21,43433), // Параметры безопасности сообщения. Необходима генерация pg_salt и подписи сообщения.
 		);
-		
+
 		if(!empty($this->VarMod->MyConfig['pg_success_url']['value']))
 			$form_fields['pg_success_url'] = $this->VarMod->MyConfig['pg_success_url']['value'];
 		if(!empty($this->VarMod->MyConfig['pg_failure_url']['value']))
 			$form_fields['pg_failure_url'] = $this->VarMod->MyConfig['pg_failure_url']['value'];
-			
+
 		preg_match_all("/\d/", $MessArr['telephone'], $array);
 		$strPhone = implode('',$array[0]);
 		$form_fields['pg_user_phone'] = $strPhone;
-		
+
 		$form_fields['pg_sig'] = PG_Signature::make('payment.php', $form_fields, $this->VarMod->MyConfig['pl_secret_key']['value']);
 		$query = http_build_query($form_fields);
-		header("Location: https://paybox.kz/payment.php?$query");
+		header("Location: https://api.paybox.money/payment.php?$query");
 	}
 	function RoboxForm($MessArr)
 	{
 		global $tpl;
-		
+
 		$order_number = $MessArr['ordernum'];
-		// your registration data 
-		$mrh_login = $this->VarMod->MyConfig['rbx_login']['value']; 
-		// your login here 
-		$mrh_pass1 = $this->VarMod->MyConfig['rbx_pass']['value']; ; 
-		// merchant pass1 here 
-		// order properties 
-		$inv_id = $order_number; // shop's invoice number // (unique for shop's lifetime) 
-		$inv_desc = ""; // invoice desc 
-		$out_summ = $MessArr['totalsum']; // invoice summ 
-		// build CRC value 
-		$crc = md5("$mrh_login:$out_summ:$inv_id:$mrh_pass1"); 
-		// build URL 
-		$url = "https://merchant.roboxchange.com/Index.aspx?MrchLogin=$mrh_login&"."OutSum=$out_summ&InvId=$inv_id&Desc=$inv_desc&SignatureValue=$crc"; 
-		
+		// your registration data
+		$mrh_login = $this->VarMod->MyConfig['rbx_login']['value'];
+		// your login here
+		$mrh_pass1 = $this->VarMod->MyConfig['rbx_pass']['value']; ;
+		// merchant pass1 here
+		// order properties
+		$inv_id = $order_number; // shop's invoice number // (unique for shop's lifetime)
+		$inv_desc = ""; // invoice desc
+		$out_summ = $MessArr['totalsum']; // invoice summ
+		// build CRC value
+		$crc = md5("$mrh_login:$out_summ:$inv_id:$mrh_pass1");
+		// build URL
+		$url = "https://merchant.roboxchange.com/Index.aspx?MrchLogin=$mrh_login&"."OutSum=$out_summ&InvId=$inv_id&Desc=$inv_desc&SignatureValue=$crc";
+
 		header("location: ".$url);
 	}
 	function GetCartItemList()
@@ -1437,7 +1437,7 @@ class shopPlugin
 					$RpRod = array();
 					foreach($Products as $item)
 					{
-						$RpRod[$item['id']] = $item; 
+						$RpRod[$item['id']] = $item;
 					}
 			if($MyCartId==$ItemDataArr['user_id'])
 			{
@@ -1450,17 +1450,17 @@ class shopPlugin
 						{
 							// ge product data
 							$MyProd = $RpRod[$utin['prod']];
-							
+
 							$Qty = $utin['qty'];
 							$FullPrice = (float)$MyProd['price']*(int)$Qty;
 							$FullPrice = $this->VarMod->GetTrueValue($FullPrice, $this->VarMod->MyClasses['products']['db']['price']);
-							
+
 							$BaseLink = "http://".$_SERVER['SERVER_NAME'];
 							$ItemDataArr['items'] .= "<b>".$cnt.".</b> <a href=\"{$BaseLink}".$this->VarMod->GetLink("products", "itemshow", array("id"=>$utin['prod']))."\">".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']."</a> ".$Qty."x - ".$FullPrice." руб. <br />";
 							$cnt++;
 						}
 					}
-					return $ItemDataArr['items'];	
+					return $ItemDataArr['items'];
 			}
 			else
 			{
@@ -1508,7 +1508,7 @@ class shopPlugin
 					$Sum = (float)$Sum+(float)$MyObiavasNew[$cont['prod']]['price']*$cont['qty'];
 					$QtyStr = (int)$QtyStr+(int)$cont['qty'];
 				}
-				
+
 			}
 			$MoneyStr = $Sum." руб.";
 		}
@@ -1564,7 +1564,7 @@ class shopPlugin
 	 if (!$u) for ($s = '', $i = 0, $z = strlen($c)-1; $i < $l; $x = rand(0,$z), $s .= $c{$x}, $i++);
 	 else for ($i = 0, $z = strlen($c)-1, $s = $c{rand(0,$z)}, $i = 1; $i != $l; $x = rand(0,$z), $s .= $c{$x}, $s = ($s{$i} == $s{$i-1} ? substr($s,0,-1) : $s), $i=strlen($s));
 	 return $s;
-	} 
+	}
 	function ShowCats()
 	{
 		global $metatags;
@@ -1588,7 +1588,7 @@ class shopPlugin
 		$Items = $this->VarMod->GetRecords("categories", $where, array(), "");
 		foreach($Items as $item)
 		{
-			$SubItems = $this->VarMod->GetRecords("categories", array("parent"=>$item['id']), array(), "");	
+			$SubItems = $this->VarMod->GetRecords("categories", array("parent"=>$item['id']), array(), "");
 			$TotAAds = $this->VarMod->GetCount("products", array("category"=>$item['id']));
 			$TempStr = "";
 			foreach($SubItems as $SubItem)
@@ -1596,13 +1596,13 @@ class shopPlugin
 				// count elemebts foreach of subcats
 				//print_r($SubItem);
 				$TotAds = $this->VarMod->GetCount("products", array("category"=>$SubItem['id']));
-				$TempStr .= "<span style='padding-left:20px;'> - <a href=\"".$this->VarMod->GetLink("main", "category", array("cid"=>$SubItem['id']))."\">".$SubItem['title']."</a> (".$TotAds.")</span> <br>"; 
+				$TempStr .= "<span style='padding-left:20px;'> - <a href=\"".$this->VarMod->GetLink("main", "category", array("cid"=>$SubItem['id']))."\">".$SubItem['title']."</a> (".$TotAds.")</span> <br>";
 				if($SubItem["description"]!="") $TempStr .="<span style='padding-left:25px;'>".$SubItem["description"]."</span><br>";
-				$TotAAds = $TotAAds +  $TotAds; 
+				$TotAAds = $TotAAds +  $TotAds;
 			}
-			
+
 			$RetStr .= "<span class=\"catlink\"><a href=\"".$this->VarMod->GetLink("main", "category", array("cid"=>$item['id']))."\">".$item['title']."</a> (".$TotAAds.") </span><br>";
-			
+
 			$RetStr .= $TempStr;
 		}
 		if($RetStr=="")
@@ -1640,13 +1640,13 @@ class shopPlugin
 			$where["category"][] = $_GET['cid'];
             // Current cat info
             // ge subcat ids
-            
+
             $PrId = $_GET['cid'];
             $AllCats = $this->GetCategoriesRecursive($PrId, $where["category"]);
             $where["category"] = array_merge($where["category"], $AllCats);
          	unset($AllCats);
          }
-		
+
 		return $this->VarMod->ShowList("products", array("tpl"=>"shop/mainitem.tpl", "tpllist"=>"shop/mainitemlist.tpl", "order"=>array("date"=>"DESC"), "where"=>$where));
 	}
 	function GetCurrentCat()
@@ -1664,7 +1664,7 @@ class shopPlugin
 			return "";
 		}
 	}
-	
+
 	function ShowBreadCrumbs()
         {
             if(isset($_GET['cid'])&&($_GET['cid']!=""))
@@ -1713,25 +1713,25 @@ class shopPlugin
 	                    {
 	                    $PathStr .= " &rarr; <a href=\"".$this->VarMod->GetLink("main", "category", array("cid"=>$item['cid']))."\">".$item['title']."</a>";
 	                    }
-	        			$cnt++;                    
+	        			$cnt++;
 	                }
                 }
                 else
                 {
 					$PathStr .= $this->VarMod->MyConfig['title']['value'];
-				} 
+				}
                 return $PathStr;
-        }   
+        }
 	function SendMessage($SendTo, $SendFrom, $SubkectRR, $MessArr, $tplname)
 	{
 		global $config;
 		$Varikus = file_get_contents("templates/".$config['skin']."/".$this->VarMod->templates[''.$tplname.'']);
-		
+
 		foreach($MessArr as $key=>$value)
 		{
 			$Varikus = str_replace("{".$key."}", $value, $Varikus);
 		}
-		
+
 		include_once ENGINE_DIR.'/classes/mail.class.php';
 		$mail = new dle_mail ($config, true);
 		$mail->from = $SendFrom;
@@ -1741,30 +1741,30 @@ class shopPlugin
 	{
 		$OrderID = $this->GenerateOrderID();
 		$ForAdd = array(
-		"cart_id" => $OrderData['cart_id'], 
+		"cart_id" => $OrderData['cart_id'],
 		"gateway" => $OrderData['gateway'],
-		"status" => "unconf", 
-		"fio" => $OrderData['fio'], 
-		"company" => $OrderData['company'], 
-		"email" => $OrderData['email'], 
+		"status" => "unconf",
+		"fio" => $OrderData['fio'],
+		"company" => $OrderData['company'],
+		"email" => $OrderData['email'],
 		"telephone" => $OrderData['telephone'],
-		"address" => $OrderData['address'], 
-		"addinfo" => $OrderData['addinfo'], 
-		"ip" => $OrderData['ip'], 
-		"date" => $OrderData['date'], 
-		"items" => $OrderData['items'], 
+		"address" => $OrderData['address'],
+		"addinfo" => $OrderData['addinfo'],
+		"ip" => $OrderData['ip'],
+		"date" => $OrderData['date'],
+		"items" => $OrderData['items'],
 		"totalsum" => $OrderData['totalsum'],
 		"ordernum" =>$OrderID
 		);
 		$this->VarMod->AddRecord("orders", $ForAdd);
-		
+
 		return $OrderID;
 	}
 	function GenerateOrderID()
 	{
 		return $this->wtl_rand_chars("1234567890", 6, TRUE);
 	}
-	
+
 }
 
 
