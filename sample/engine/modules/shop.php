@@ -66,15 +66,15 @@ $TplDef = array(
 );
 
 $LangArr = array(
-"title" => "Корзина"
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 );
 
 $FormArr = array(
-"title"=>array("title"=>"Название", "descr"=>"Название города")
+"title"=>array("title"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "descr"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $CheckDataArr = array(
-"text"=>array("type"=>"required", "msg"=>"Поле 'Сообщение' обязательно к заполнению")
+"text"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $LinksArr = array(
@@ -117,21 +117,21 @@ $TplDef = array(
 );
 
 $LangVars = array(
-"title" => "Объявления",
-"title_item" => "Обявление"
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+"title_item" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 );
 $LangArr = array(
-"title" => "Объявления",
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 );
 
 $FormArr = array(
-"title"=>array("title"=>"Название", "descr"=>"Название города")
+"title"=>array("title"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "descr"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $CheckDataArr = array(
-//"title"=>array("type"=>"required", "msg"=>"Поле 'Название' обязательно к заполнению"),
-//"info"=>array("type"=>"required", "msg"=>"Поле 'Описание' обязательно к заполнению"),
-//"email"=>array("type"=>"email", "msg"=>"Пожалуйста, заполните поле Email правильно")
+//"title"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"),
+//"info"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"),
+//"email"=>array("type"=>"email", "msg"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ Email пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $BrdArr = array("class"=>"products", "field"=>"title", "link"=>"main");
@@ -174,15 +174,15 @@ $TplDef = array(
 );
 
 $LangArr = array(
-"title" => "Комментарии к продуктам"
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 );
 
 $FormArr = array(
-"title"=>array("title"=>"Название", "descr"=>"Название города")
+"title"=>array("title"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "descr"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $CheckDataArr = array(
-"text"=>array("type"=>"required", "msg"=>"Поле 'Сообщение' обязательно к заполнению")
+"text"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $LinksArr = array(
@@ -229,15 +229,15 @@ $TplDef = array(
 );
 
 $LangArr = array(
-"title" => "Марки"
+"title" => "пїЅпїЅпїЅпїЅпїЅ"
 );
 
 $FormArr = array(
-"title"=>array("title"=>"Название", "descr"=>"Название страны")
+"title"=>array("title"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "descr"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $CheckDataArr = array(
-"title"=>array("type"=>"required", "msg"=>"Поле 'Название' обязательно к заполнению")
+"title"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $LinksArr = array(
@@ -277,15 +277,15 @@ $TplDef = array(
 );
 
 $LangArr = array(
-"title" => "Заказы"
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅ"
 );
 
 $FormArr = array(
-"title"=>array("title"=>"Название", "descr"=>"Заказ")
+"title"=>array("title"=>"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "descr"=>"пїЅпїЅпїЅпїЅпїЅ")
 );
 
 $CheckDataArr = array(
-"cart_id"=>array("type"=>"required", "msg"=>"Поле 'ID корзины' обязательно к заполнению")
+"cart_id"=>array("type"=>"required", "msg"=>"пїЅпїЅпїЅпїЅ 'ID пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 );
 
 $LinksArr = array(
@@ -323,10 +323,10 @@ $MetaArr = array(
 "description" => $ShopConfig['meta_desc']['value']
 );
 
-$MyModule->CreatePage("ShowAll", "Главная", $PageConf, $TagList, $UserRights, $UrlPath, "shop/main.tpl", $MetaArr);
+$MyModule->CreatePage("ShowAll", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", $PageConf, $TagList, $UserRights, $UrlPath, "shop/main.tpl", $MetaArr);
 // -------------------
 if($_GET['op']=='category')
-$MyModule->CreatePage("ShowAll", "Главная", $PageConf, $TagList, $UserRights, $UrlPath, "shop/main1.tpl", $MetaArr);
+$MyModule->CreatePage("ShowAll", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", $PageConf, $TagList, $UserRights, $UrlPath, "shop/main1.tpl", $MetaArr);
 // when we set our data classes we need to make our pages to show
 $PageConf = array(
 "type"=>"static" // define type of the page - static ot form
@@ -366,11 +366,11 @@ $UrlPath = array(
 
 $MetaArr = array(
 "title" => $ShopConfig['title']['value'],
-"keywords" => "доска, объявления, ключ, слово",
-"description" => "Лучшая доска объвлений нашего города!!!"
+"keywords" => "пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ",
+"description" => "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!!!"
 );
 
-$MyModule->CreatePage("checkout", "Оформление заказа", $PageConf, $TagList, $UserRights, $UrlPath, "shop/checkout.tpl", $MetaArr);
+$MyModule->CreatePage("checkout", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ", $PageConf, $TagList, $UserRights, $UrlPath, "shop/checkout.tpl", $MetaArr);
 // ---------------------->
 
 $PageConf = array(
@@ -390,12 +390,12 @@ $UrlPath = array(
 
 
 $MetaArr = array(
-"title" => "Конфигурация :: ".$ShopConfig['title']['value'],
-"keywords" => "доска, объявления, ключ, слово",
-"description" => "Лучшая доска объвлений нашего города!!!"
+"title" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ :: ".$ShopConfig['title']['value'],
+"keywords" => "пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ",
+"description" => "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!!!"
 );
 
-$MyModule->CreatePage("config", "Конфигурация модуля", $PageConf, $TagList, $UserRights, $UrlPath, "shop/config.tpl", $MetaArr);
+$MyModule->CreatePage("config", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ", $PageConf, $TagList, $UserRights, $UrlPath, "shop/config.tpl", $MetaArr);
 
 $MyModule->AddLink("main", "/index.php?do=shop", "/shop/", "all");
 $MyModule->AddLink("adm_cfg_lnk", "/index.php?do=shop&op=config", "/shop/admin/config", "admin");
@@ -423,53 +423,53 @@ if($ShopConfig['comment_not']['value']=="1")
 
 
 
-$MyModule->SetLangVar("ru", "checkbox_yes", "есть");
-$MyModule->SetLangVar("ru", "checkbox_no", "нет");
+$MyModule->SetLangVar("ru", "checkbox_yes", "пїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "checkbox_no", "пїЅпїЅпїЅ");
 // Initiate languages
-$MyModule->SetLangVar("ru", "categories", "категории");
-$MyModule->SetLangVar("ru", "cities", "города");
-$MyModule->SetLangVar("ru", "products", "объявления");
-$MyModule->SetLangVar("ru", "countries", "страны");
+$MyModule->SetLangVar("ru", "categories", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "cities", "пїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "products", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "countries", "пїЅпїЅпїЅпїЅпїЅпїЅ");
 
 
-$MyModule->SetLangVar("ru", "CfgAdmin", "Конфигурация модуля");
-$MyModule->SetLangVar("ru", "AddLink", "Добавить");
-$MyModule->SetLangVar("ru", "ShowList", "Список");
-$MyModule->SetLangVar("ru", "Edit", "Изменить");
-$MyModule->SetLangVar("ru", "Delete", "Удалить");
-$MyModule->SetLangVar("ru", "ModerList", "Модерация");
-$MyModule->SetLangVar("ru", "publ", "Опубликовать");
-$MyModule->SetLangVar("ru", "unpubl", "Снять");
+$MyModule->SetLangVar("ru", "CfgAdmin", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "AddLink", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "ShowList", "пїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "Edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "Delete", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "ModerList", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "publ", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "unpubl", "пїЅпїЅпїЅпїЅпїЅ");
 
-$MyModule->SetLangVar("ru", "msg_cities_add", "Спасибо, город успешно добавлен");
-$MyModule->SetLangVar("ru", "msg_categories_add", "Спасибо, категория успешно добавлена");
-$MyModule->SetLangVar("ru", "msg_products_add", "Спасибо, объявление успешно добавлено.");
-$MyModule->SetLangVar("ru", "msg_countries_add", "Спасибо, страна успешно добавлено.");
-$MyModule->SetLangVar("ru", "msg_comments_add", "Спасибо,  комментарий успешно добавлен.");
+$MyModule->SetLangVar("ru", "msg_cities_add", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_categories_add", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_products_add", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_countries_add", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_comments_add", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ,  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 
-$MyModule->SetLangVar("ru", "msg_cities_edit", "Спасибо, город успешно изменен");
-$MyModule->SetLangVar("ru", "msg_categories_edit", "Спасибо, категория успешно изменена");
-$MyModule->SetLangVar("ru", "msg_products_edit", "Спасибо, объявление успешно изменено.");
-$MyModule->SetLangVar("ru", "msg_countries_edit", "Спасибо, страна успешно изменена");
-$MyModule->SetLangVar("ru", "msg_comments_edit", "Спасибо, комментарий успешно изменен");
+$MyModule->SetLangVar("ru", "msg_cities_edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_categories_edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_products_edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_countries_edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_comments_edit", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 
 
-$MyModule->SetLangVar("ru", "msg_cities_del", "Спасибо, город успешно удален");
-$MyModule->SetLangVar("ru", "msg_categories_del", "Спасибо, категория успешно удалена");
-$MyModule->SetLangVar("ru", "msg_products_del", "Спасибо, объявление успешно удалено.");
-$MyModule->SetLangVar("ru", "msg_countries_del", "Спасибо, страна успешно удалена.");
-$MyModule->SetLangVar("ru", "msg_comments_del", "Спасибо, комментарий успешно удален");
+$MyModule->SetLangVar("ru", "msg_cities_del", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_categories_del", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+$MyModule->SetLangVar("ru", "msg_products_del", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_countries_del", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_comments_del", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 
-$MyModule->SetLangVar("ru", "msg_record_exists", "Точно такая же запись уже существует в базе.");
-$MyModule->SetLangVar("ru", "msg_record_none", "Товары в данной категории временно отсутствует.");
+$MyModule->SetLangVar("ru", "msg_record_exists", "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ.");
+$MyModule->SetLangVar("ru", "msg_record_none", "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 
-$MyModule->SetLangVar("ru", "msg_restricted", "У вас недостаточно прав для просмотра этой страницы. <br><a href=\"javascript:history.go(-1)\">Назад</a>");
+$MyModule->SetLangVar("ru", "msg_restricted", "пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. <br><a href=\"javascript:history.go(-1)\">пїЅпїЅпїЅпїЅпїЅ</a>");
 
 $MyModule->SetLangVar("ru", "brd_startup", $MyModule->MyConfig['title']['value']);
 $MyModule->SetLangVar("ru", "msg_yrhere", "");
 $MyModule->SetLangVar("ru", "brd_sign", " &rarr; ");
 
-$MyModule->SetLangVar("ru", "addimgfield", "Добавить поле");
+$MyModule->SetLangVar("ru", "addimgfield", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ");
 
 
 // Select Lists
@@ -482,21 +482,21 @@ while($row = $db->get_row())
 $MyModule->AddSelectList("groups",$GroupArr);
 
 $TimeShowList = array(
-"week" => "Неделя",
-"2week" => "2 недели",
-"month" => "Месяц"
+"week" => "пїЅпїЅпїЅпїЅпїЅпїЅ",
+"2week" => "2 пїЅпїЅпїЅпїЅпїЅпїЅ",
+"month" => "пїЅпїЅпїЅпїЅпїЅ"
 );
 $MyModule->AddSelectList("GetTimeShow",$TimeShowList);
 
 
 $YesNoList = array(
-"1" => "Да",
-"0" => "Нет"
+"1" => "пїЅпїЅ",
+"0" => "пїЅпїЅпїЅ"
 );
 $MyModule->AddSelectList("YesNo",$YesNoList);
 
 $MarksList = array(
-"0" => "Все",
+"0" => "пїЅпїЅпїЅ",
 "1" => "Caro",
 "2" => "Oporo",
 "3" => "Topclass",
@@ -509,8 +509,8 @@ $ParamsFR = array(
 $MyModule->AddSelectList("Marks", $MarksList, $ParamsFR);
 
 $MarksList = array(
-"0" => "Все",
-"1" => "нет",
+"0" => "пїЅпїЅпїЅ",
+"1" => "пїЅпїЅпїЅ",
 "2" => "2",
 "3" => "4",
 "4" => "6",
@@ -528,10 +528,10 @@ $ParamsFR = array(
 $MyModule->AddSelectList("HMFors", $MarksList, $ParamsFR);
 
 $MarksList = array(
-"0" => "Все",
-"1" => "Низкий",
-"2" => "Высокий",
-"3" => "Совмещенные с ванной",
+"0" => "пїЅпїЅпїЅ",
+"1" => "пїЅпїЅпїЅпїЅпїЅпїЅ",
+"2" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+"3" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
@@ -539,10 +539,10 @@ $ParamsFR = array(
 $MyModule->AddSelectList("Poddons", $MarksList, $ParamsFR);
 
 $MarksList = array(
-"0" => "Все",
-"1" => "Нет",
-"2" => "Сенсорная",
-"3" => "Кнопочная",
+"0" => "пїЅпїЅпїЅ",
+"1" => "пїЅпїЅпїЅ",
+"2" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+"3" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 );
 $ParamsFR = array(
 "zeritem"=>"edititem, additem"
@@ -559,7 +559,7 @@ $YearArr = array_reverse($YearArr, true);
 $MyModule->AddSelectList("Years", $YearArr, $ParamsFR);
 
 $CurrArr = array(
-"0" => "Все",
+"0" => "пїЅпїЅпїЅ",
 "usd" => "$",
 "jpy" => "JPY",
 "eur" => "EUR",
@@ -572,9 +572,9 @@ $ParamsFR = array(
 $MyModule->AddSelectList("Currencies", $CurrArr, $ParamsFR);
 
 $CurrArr = array(
-"unconf" => "В ожидании",
-"paid" => "Оплачен",
-"canceld" => "Отменен",
+"unconf" => "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+"paid" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+"canceld" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 );
 
 $ParamsFR = array();
@@ -725,14 +725,14 @@ class shopPlugin
 		{
 			if($this->VarMod->UserCheckRights($this->VarMod->MyConfig['min_add_group']['value']))
 			{
-				return "<a style=\"font-size: 14px;\" href=\"".$this->VarMod->GetLink("products", "additem")."\">Добавить объявление</a>";
+				return "<a style=\"font-size: 14px;\" href=\"".$this->VarMod->GetLink("products", "additem")."\">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a>";
 			}
 			else
 			{
-				$Restr = "Добавить объявление (вам не хватает прав)";
+				$Restr = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ)";
 				if(!$is_logged)
 				{
-					$Restr .= " <a style=\"font-size: 14px;\" href=\"/index.php?do=register\">Регистрация</a>";
+					$Restr .= " <a style=\"font-size: 14px;\" href=\"/index.php?do=register\">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a>";
 				}
 				return $Restr;
 			}
@@ -784,19 +784,19 @@ class shopPlugin
 		 function translitIt($str)
 {
     $tr = array(
-        "А"=>"a","Б"=>"b","В"=>"v","Г"=>"g",
-        "Д"=>"d","Е"=>"e","Ж"=>"j","З"=>"z","И"=>"i",
-        "Й"=>"y","К"=>"k","Л"=>"l","М"=>"m","Н"=>"n",
-        "О"=>"o","П"=>"p","Р"=>"r","С"=>"s","Т"=>"t",
-        "У"=>"u","Ф"=>"f","Х"=>"h","Ц"=>"ts","Ч"=>"ch",
-        "Ш"=>"sh","Щ"=>"sch","Ъ"=>"","Ы"=>"yi","Ь"=>"",
-        "Э"=>"e","Ю"=>"yu","Я"=>"ya","а"=>"a","б"=>"b",
-        "в"=>"v","г"=>"g","д"=>"d","е"=>"e","ж"=>"j",
-        "з"=>"z","и"=>"i","й"=>"y","к"=>"k","л"=>"l",
-        "м"=>"m","н"=>"n","о"=>"o","п"=>"p","р"=>"r",
-        "с"=>"s","т"=>"t","у"=>"u","ф"=>"f","х"=>"h",
-        "ц"=>"ts","ч"=>"ch","ш"=>"sh","щ"=>"sch","ъ"=>"y",
-        "ы"=>"yi","ь"=>"","э"=>"e","ю"=>"yu","я"=>"ya",
+        "пїЅ"=>"a","пїЅ"=>"b","пїЅ"=>"v","пїЅ"=>"g",
+        "пїЅ"=>"d","пїЅ"=>"e","пїЅ"=>"j","пїЅ"=>"z","пїЅ"=>"i",
+        "пїЅ"=>"y","пїЅ"=>"k","пїЅ"=>"l","пїЅ"=>"m","пїЅ"=>"n",
+        "пїЅ"=>"o","пїЅ"=>"p","пїЅ"=>"r","пїЅ"=>"s","пїЅ"=>"t",
+        "пїЅ"=>"u","пїЅ"=>"f","пїЅ"=>"h","пїЅ"=>"ts","пїЅ"=>"ch",
+        "пїЅ"=>"sh","пїЅ"=>"sch","пїЅ"=>"","пїЅ"=>"yi","пїЅ"=>"",
+        "пїЅ"=>"e","пїЅ"=>"yu","пїЅ"=>"ya","пїЅ"=>"a","пїЅ"=>"b",
+        "пїЅ"=>"v","пїЅ"=>"g","пїЅ"=>"d","пїЅ"=>"e","пїЅ"=>"j",
+        "пїЅ"=>"z","пїЅ"=>"i","пїЅ"=>"y","пїЅ"=>"k","пїЅ"=>"l",
+        "пїЅ"=>"m","пїЅ"=>"n","пїЅ"=>"o","пїЅ"=>"p","пїЅ"=>"r",
+        "пїЅ"=>"s","пїЅ"=>"t","пїЅ"=>"u","пїЅ"=>"f","пїЅ"=>"h",
+        "пїЅ"=>"ts","пїЅ"=>"ch","пїЅ"=>"sh","пїЅ"=>"sch","пїЅ"=>"y",
+        "пїЅ"=>"yi","пїЅ"=>"","пїЅ"=>"e","пїЅ"=>"yu","пїЅ"=>"ya",
         " "=> "_", "."=> ""
     );
     return strtr($str,$tr);
@@ -815,7 +815,7 @@ class shopPlugin
 		$FormStr = '
 		<form method="POST" action="'.$this->VarMod->GetLink("products", "itembuy", array("id"=>$Params['row']['id'])).'">
 		<input type="text" value="1" name="prod_qty" class="qtyfield" />
-		<input type="submit" class="buybut" value="В корзину" />
+		<input type="submit" class="buybut" value="пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" />
 		</form>
 		';
 		$FCatLink = "<a href=\"".$this->VarMod->GetLink("main", "category", array("cid"=>$Params['row']['id']))."\">";
@@ -856,7 +856,7 @@ class shopPlugin
 			{
 				if($MyCartId==$ItemDataArr['user_id'])
 				{
-					$metatags['title'] =  "Ваша корзина :: ".$this->VarMod->MyConfig['title']['value'];
+					$metatags['title'] =  "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ :: ".$this->VarMod->MyConfig['title']['value'];
 					// Now make items list
 					$Products = $this->VarMod->GetRecords("products");
 					$RpRod = array();
@@ -877,7 +877,7 @@ class shopPlugin
 							$FullPrice = $this->VarMod->GetTrueValue($FullPrice, $this->VarMod->MyClasses['products']['db']['price']);
 							$BuyLink = $this->VarMod->GetLink("products", "itembuy", array("id"=>$MyProd['id']));
 
-							$ItemDataArr['items'] .= "".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']." ".$Qty."x - ".$FullPrice." руб - "."<form style=\"display: inline;\" action=\"".$BuyLink."\" method=\"post\"><input type=\"text\" name=\"newqty\" style=\"width: 40px;\" value=\"".$Qty."\" /><input type=\"submit\" value=\"Изменить\" /></form> <a href=\"".$this->VarMod->GetLink("carts", "deleteitem", array("id"=>$ItemDataArr['id'], "did"=>$key))."\">Удалить</a>"."<br />";
+							$ItemDataArr['items'] .= "".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']." ".$Qty."x - ".$FullPrice." пїЅпїЅпїЅ - "."<form style=\"display: inline;\" action=\"".$BuyLink."\" method=\"post\"><input type=\"text\" name=\"newqty\" style=\"width: 40px;\" value=\"".$Qty."\" /><input type=\"submit\" value=\"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\" /></form> <a href=\"".$this->VarMod->GetLink("carts", "deleteitem", array("id"=>$ItemDataArr['id'], "did"=>$key))."\">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a>"."<br />";
 						}
 					}
 					if(count($CartContents)>0)
@@ -889,7 +889,7 @@ class shopPlugin
 					}
 					else
 					{
-						$ItemDataArr['items'] = "Пока нет товаров в корзине";
+						$ItemDataArr['items'] = "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 						$ItemDataArr['formlnk'] = '';
 					$ItemDataArr['clearlnk'] = '';
 					$ItemDataArr['/a'] = "";
@@ -915,7 +915,7 @@ class shopPlugin
 			$FormStr = '
 		<form method="POST" action="'.$this->VarMod->GetLink("products", "itembuy", array("id"=>$Params['row']['id'])).'">
 		<input type="text" value="1" name="prod_qty" class="qtyfield" />
-		<input type="submit" class="buybut" value="В корзину" />
+		<input type="submit" class="buybut" value="пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" />
 		</form>
 		';
 
@@ -929,10 +929,10 @@ class shopPlugin
 	}
 	function SrochnoFunction($TplText, $rowData)
 	{
-	//	<span class="express">Срочно!</span>
+	//	<span class="express">пїЅпїЅпїЅпїЅпїЅпїЅ!</span>
 		if($this->VarMod->UserCheckRights('admin'))
 			{
-		$TplText = str_replace("{plg_upped}", " | <a href=\"/index.php?do=shop&class=products&op=itemup&id=".$rowData['id']."\">Поднять</a>", $TplText);
+		$TplText = str_replace("{plg_upped}", " | <a href=\"/index.php?do=shop&class=products&op=itemup&id=".$rowData['id']."\">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a>", $TplText);
 		}
 		else
 		{
@@ -940,7 +940,7 @@ class shopPlugin
 		}
 		if($rowData['urgent']=="1")
 		{
-			$TplText = str_replace("{plg_srochno}", "<span class=\"srochbut\"><b>СРОЧНО</b></span>", $TplText);
+			$TplText = str_replace("{plg_srochno}", "<span class=\"srochbut\"><b>пїЅпїЅпїЅпїЅпїЅпїЅ</b></span>", $TplText);
 		}
 		else
 		{
@@ -1216,7 +1216,7 @@ class shopPlugin
 		// Get POST values form a message get whom to send and send it
 		if($_POST['fio']==""||$_POST['phone']==""||$_POST['email']=="")
 		{
-			$MesData = "Поля Email, ФИО и Телефон обязательны для заполнения <br /><a href=\"\">Назад</a>";
+			$MesData = "пїЅпїЅпїЅпїЅ Email, пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ <br /><a href=\"\">пїЅпїЅпїЅпїЅпїЅ</a>";
 
 			return $this->VarMod->MakeTemplate($this->VarMod->templates['message'], array("msg"=>$MesData), "content");
 		}
@@ -1234,9 +1234,9 @@ class shopPlugin
 		$GateWay = "";
 		switch($_POST['gateway'])
 		{
-			case "platron":
+			case "paybox":
 			{
-				$GateWay = "Platron";
+				$GateWay = "Paybox";
 				break;
 			}
 			case "robox":
@@ -1251,7 +1251,7 @@ class shopPlugin
 			}
 			default:
 			{
-				$GateWay = "Заказ";
+				$GateWay = "пїЅпїЅпїЅпїЅпїЅ";
 				break;
 			}
 		}
@@ -1295,8 +1295,8 @@ class shopPlugin
 
 		$OrderNum = $this->AddNewOrder($MessArr);
 		$MessArr['ordernum'] = $OrderNum;
-		$this->SendMessage($this->VarMod->MyConfig['site_mail']['value'], $StrEmail, "Новый заказ в ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailadmin");
-	    $this->SendMessage($StrEmail, $this->VarMod->MyConfig['site_mail']['value'], "Ваш заказ в ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailuser");
+		$this->SendMessage($this->VarMod->MyConfig['site_mail']['value'], $StrEmail, "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailadmin");
+	    $this->SendMessage($StrEmail, $this->VarMod->MyConfig['site_mail']['value'], "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ ".$this->VarMod->MyConfig['title']['value'], $MessArr, "mailuser");
 
 	    $this->ClearCart(false);
 
@@ -1308,9 +1308,9 @@ class shopPlugin
 		{
 			$this->RoboxForm($MessArr);
 		}
-		else if($_POST['gateway']=="platron")
+		else if($_POST['gateway']=="paybox")
 		{
-			$this->PlatronForm($MessArr);
+			$this->PayboxForm($MessArr);
 		}
 		else
 		{
@@ -1341,9 +1341,9 @@ class shopPlugin
 		);
 
 		$FormStr = "";
-		$FormStr .= '<h4>Активируйте WebMoney Keeper перед переходом к странице платежа.</h4>'; // Please remember to activate WebMoney Keeper prior to processing next step
+		$FormStr .= '<h4>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ WebMoney Keeper пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</h4>'; // Please remember to activate WebMoney Keeper prior to processing next step
 		$FormStr .= '<form action="'.$url.'" method="post">';
-		$FormStr .= '<input type="submit" value="Оплатить заказ" name="formSubmit" class="button"/>';
+		$FormStr .= '<input type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ" name="formSubmit" class="button"/>';
 
 		foreach( $post_variables as $name => $value )
 		{
@@ -1353,9 +1353,9 @@ class shopPlugin
 
 		$this->VarMod->MakeTemplate($this->VarMod->templates['message'], array("msg"=>$FormStr), "content");
 	}
-	function PlatronForm($MessArr)
+	function PayboxForm($MessArr)
 	{
-		require_once('\engine\modules\platron\PG_Signature.php');
+		require_once('\engine\modules\paybox\PG_Signature.php');
 		global $tpl;
 		global $config;
 
@@ -1370,10 +1370,10 @@ class shopPlugin
 			'pg_lifetime'		=> (!empty($this->VarMod->MyConfig['pl_lifetime']['value']))?$this->VarMod->MyConfig['pl_lifetime']['value']:0,
 			'pg_testing_mode'	=> (!empty($this->VarMod->MyConfig['pl_testmode']['value'])) ? 1 : 0,
 			'pg_description'	=> '#'.$MessArr['ordernum'],
-			'pg_check_url'		=> 'http://'.$_SERVER['SERVER_NAME'].'/engine/platron/callback.php',
-			'pg_result_url'		=> 'http://'.$_SERVER['SERVER_NAME'].'/engine/platron/callback.php',
+			'pg_check_url'		=> 'http://'.$_SERVER['SERVER_NAME'].'/engine/paybox/callback.php',
+			'pg_result_url'		=> 'http://'.$_SERVER['SERVER_NAME'].'/engine/paybox/callback.php',
 			'pg_request_method'	=> 'GET',
-			'pg_salt'			=> rand(21,43433), // Параметры безопасности сообщения. Необходима генерация pg_salt и подписи сообщения.
+			'pg_salt'			=> rand(21,43433), // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ pg_salt пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 		);
 
 		if(!empty($this->VarMod->MyConfig['pg_success_url']['value']))
@@ -1456,7 +1456,7 @@ class shopPlugin
 							$FullPrice = $this->VarMod->GetTrueValue($FullPrice, $this->VarMod->MyClasses['products']['db']['price']);
 
 							$BaseLink = "http://".$_SERVER['SERVER_NAME'];
-							$ItemDataArr['items'] .= "<b>".$cnt.".</b> <a href=\"{$BaseLink}".$this->VarMod->GetLink("products", "itemshow", array("id"=>$utin['prod']))."\">".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']."</a> ".$Qty."x - ".$FullPrice." руб. <br />";
+							$ItemDataArr['items'] .= "<b>".$cnt.".</b> <a href=\"{$BaseLink}".$this->VarMod->GetLink("products", "itemshow", array("id"=>$utin['prod']))."\">".$this->VarMod->GetTrueValue($MyProd['category'], $this->VarMod->MyClasses['products']['db']['category'])." - ".$MyProd['title']."</a> ".$Qty."x - ".$FullPrice." пїЅпїЅпїЅ. <br />";
 							$cnt++;
 						}
 					}
@@ -1510,7 +1510,7 @@ class shopPlugin
 				}
 
 			}
-			$MoneyStr = $Sum." руб.";
+			$MoneyStr = $Sum." пїЅпїЅпїЅ.";
 		}
 		else
 		{
@@ -1534,7 +1534,7 @@ class shopPlugin
 		}
 		else
 		{
-			$tpl->copy_template = "<div align=\"center\"><b>Корзина пуста</b></div>";
+			$tpl->copy_template = "<div align=\"center\"><b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</b></div>";
 			$tpl->compile('mycart');
 			$tpl->clear();
 		}
@@ -1607,7 +1607,7 @@ class shopPlugin
 		}
 		if($RetStr=="")
 		{
-			$RetStr = "В данной категории нет подкатегорий";
+			$RetStr = "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 		}
 		return $RetStr;
 	}
@@ -1698,7 +1698,7 @@ class shopPlugin
                     $PathArr = array();
                 }
                 $PathArr = array_reverse($PathArr, true);
-                $PathStr = "<a href='/'>Главная</a> &rarr; ";
+                $PathStr = "<a href='/'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> &rarr; ";
                 $cnt = 1;
                 if(count($PathArr)>0)
                 {

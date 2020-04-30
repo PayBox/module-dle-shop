@@ -1,4 +1,4 @@
-<div style="padding: 5px; border: 1px #ccc dashed; border-bottom: none; width: 150px;"><span style="font-size: 14px; font-weight: bold;">Перечень товаров</span></div>
+<div style="padding: 5px; border: 1px #ccc dashed; border-bottom: none; width: 150px;"><span style="font-size: 14px; font-weight: bold;">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</span></div>
 <div style="padding: 5px; border: 1px #ccc dashed;">
 {cartitems}
 </div>
@@ -6,24 +6,24 @@
 <form action="" method="post">
 <table width="100%" style="padding: 5px;">
   <tr>
-	<td colspan="2"><span style="font-size: 14px; font-weight: bold;">Форма заказа</b><hr /><br /></td>
+	<td colspan="2"><span style="font-size: 14px; font-weight: bold;">пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</b><hr /><br /></td>
   <tr>
   <tr>
-	<td>Метод оплаты</td>
+	<td>пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</td>
 	<td><select name="gateway">
 	<option value="webmoney">WebMoney</option>
-	<option value="platron">Platron</option>
+	<option value="paybox">Paybox</option>
 	<option value="robox">Robox</option>
-	<option value="order" selected>Заказ</option>
+	<option value="order" selected>пїЅпїЅпїЅпїЅпїЅ</option>
 	</select>
 	</td>
   <tr>
   <tr>
-	<td>Ф.И.О. *</td>
+	<td>пїЅ.пїЅ.пїЅ. *</td>
 	<td><input type="text" name="fio" value="" /></td>
   <tr>
   <tr>
-	<td>Компания</td>
+	<td>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</td>
 	<td><input type="text" name="company" value="" /></td>
   <tr>
   <tr>
@@ -31,22 +31,22 @@
 	<td><input type="text" name="email" value="" /></td>
   <tr>
   <tr>
-	<td>Телефон  *</td>
+	<td>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  *</td>
 	<td><input type="text" name="phone" value="" /></td>
   <tr>
   <tr>
-	<td>Адрес</td>
+	<td>пїЅпїЅпїЅпїЅпїЅ</td>
 	<td><textarea name="adres" cols="22" rows="4"></textarea></td>
   <tr>
   <tr>
-	<td>Примечание:</td>
+	<td>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</td>
 	<td><textarea name="comments" cols="37" rows="6"></textarea></td>
   <tr>
   <tr>
 	<td colspan="2">
 	<input type="hidden" name="currentid" value="{cartid}" />
 	<input type="hidden" name="sent" value="yes" />
-	<input type="submit" name="submit" value="отправить" />
+	<input type="submit" name="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" />
 	</td>
   <tr>
 </table>

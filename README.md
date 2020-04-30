@@ -2,15 +2,15 @@
 
 #### Тестировалось и писалось для DLE 10.1 Shop версия 1.1
 
-1. Регистрируемся на platron.ru
+1. Регистрируемся на <a href="https://paybox.money" target="_blank">paybox.money</a>
 2. Заходим `templates\ваш шаблон\shop\checkout.tpl` и в `select` вставляем (редактируем файлы в той кодировке, в которой они были изначально)
-`<option value="platron">Platron</option>`
+`<option value="paybox">Paybox</option>`
 3. Открываем `engine/modules/shop.php`.
 После `switch($_POST['gateway'])` вставляем
 ```
-case"platron":
+case"paybox":
 {
-    $GateWay = "Platron";
+    $GateWay = "Paybox";
     break;
 }
 ```
@@ -23,16 +23,16 @@ else if($_POST['gateway']=="robox")
 ```
 вставляем
 ```
-else if($_POST['gateway']=="platron")
+else if($_POST['gateway']=="paybox")
 {
-    $this->PlatronForm($MessArr);
+    $this->PayboxForm($MessArr);
 }
 ```
-после метода `RoboxForm` вставить метод `PlatronForm`
+после метода `RoboxForm` вставить метод `PayboxForm`
 ```
-function PlatronForm($MessArr)
+function PayboxForm($MessArr)
 {
-    require_once('\engine\modules\platron\PG_Signature.php');
+    require_once('\engine\modules\paybox\PG_Signature.php');
     global $tpl;
     global $config
 
@@ -47,8 +47,8 @@ function PlatronForm($MessArr)
         'pg_lifetime' => (!emptyempty($this->VarMod->MyConfig['pl_lifetime']['value']))?$this->VarMod->MyConfig['pl_lifetime']['value']:0,
         'pg_testing_mode' => (!emptyempty($this->VarMod->MyConfig['pl_testmode']['value'])) ? 1 : 0,
         'pg_description' => '#'.$MessArr['ordernum'],
-        'pg_check_url' => 'http://'.$_SERVER['SERVER_NAME'].'/engine/platron/callback.php',
-        'pg_result_url' => 'http://'.$_SERVER['SERVER_NAME'].'/engine/platron/callback.php',
+        'pg_check_url' => 'http://'.$_SERVER['SERVER_NAME'].'/engine/paybox/callback.php',
+        'pg_result_url' => 'http://'.$_SERVER['SERVER_NAME'].'/engine/paybox/callback.php',
         'pg_request_method' => 'GET',
         'pg_salt' => rand(21,43433), //Пaраметры беопасности сообщения. Необходима генерация pg_salt и подписи сообщения.
     );
@@ -64,7 +64,7 @@ function PlatronForm($MessArr)
 
     $form_fields['pg_sig'] = PG_Signature::make('payment.php', $form_fields, $this->VarMod->MyConfig['pl_secret_key']['value']);
     $query = http_build_query($form_fields);
-    header("Location: https://www.platron.ru/payment.php?$query");
+    header("Location: https://www.paybox.ru/payment.php?$query");
 }
 ```
 4. В `engine\data\shop_config.php` в конец вставить
@@ -72,42 +72,42 @@ function PlatronForm($MessArr)
 $ShopConfig['pl_merchant_id'] = array(
     "value" => '',
     "type" => "varchar",
-    "title" => "Platron. Номер магазина",
-    "descr" => "Смотреть в личном кабинете platron"
+    "title" => "Paybox. Номер магазина",
+    "descr" => "Смотреть в личном кабинете paybox"
 );
 
 $ShopConfig['pl_secret_key'] = array(
     "value" => '',
     "type" => "varchar",
-    "title" => "Platron. Секретный ключ",
+    "title" => "Paybox. Секретный ключ",
     "descr" => "Для подписи запросов"
 );
 
 $ShopConfig['pl_lifetime'] = array(
     "value" => '',
     "type" => "varchar",
-    "title" => "Platron.Время жизни счета",
+    "title" => "Paybox.Время жизни счета",
     "descr" => "Сколько будет жить счет. 0 - не учитывается. Указывается в минутах"
 );
 
 $ShopConfig['pl_testmode'] = array(
     "value" => '1',
     "type" => "yesno",
-    "title" => "Platron. Тестовый режим",
+    "title" => "Paybox. Тестовый режим",
     "descr" => "Для тестирования взаимодействия"
 );
 
 $ShopConfig['pl_success_url'] = array(
     "value" => '',
     "type" => "varchar",
-    "title" => "Platron. Url успешного платежа",
+    "title" => "Paybox. Url успешного платежа",
     "descr" => "Для возврата покупателя"
 );
 
 $ShopConfig['pl_failure_url'] = array(
     "value" => '',
     "type" => "varchar",
-    "title" => "Platron. Url не успешного платежа",
+    "title" => "Paybox. Url не успешного платежа",
     "descr" => "Для возврата покупателя"
 );
 ```
@@ -129,7 +129,7 @@ $TotalList .= "</td><td>";
 $TotalList .= "Статус: " . $CurrArr[$items[$i]["status"]];
 ```
 
-7. Зайти в список всех разделов->админка->Настройка магазина и заполнить поля, которые относятся к platron
+7. Зайти в список всех разделов->админка->Настройка магазина и заполнить поля, которые относятся к paybox
 
 Для того, чтобы не принимать платеж достаточно удалить заказ.
 
